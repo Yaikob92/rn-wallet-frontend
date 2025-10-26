@@ -61,5 +61,6 @@ export const useTransactions = (userId) => {
       Alert.alert("Error", error.messages);
     }
   };
+
   return { transactions, summary, isLoading, loadData, deleteTransactions };
 };
